@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1>College Admission Form</h1>
+    <form>
+        <label for="Student Name">Enter Full Name:</label><br>
+        <input type="text" id="Student Name"  required><br><br>
+        <label for="Father's Name">Enter Father's Full Name:</label><br>
+        <input type="text" id="Father's Name"  required><br><br>
+        <label for="Mobile Number">Mobile Number:</label><br>
+        <input type="tel" id="Mobile Number"  required><br><br>
+        <label for="Email">Email Address:</label><br>
+        <input type="email" id="email" required><br><br>
+        <label for="course">Select Course:</label><br>
+        <select id="course" required>
+            <option value="">--Select a course--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="BBA">BBA</option>
+        </select><br><br>
+        <label for="Address">Address:</label><br>
+        <textarea id="Address" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
