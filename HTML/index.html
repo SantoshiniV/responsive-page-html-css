@@ -7,14 +7,17 @@
 </head>
 <body>
     <center>
+        <!--main page header for the student registration form-->
     <h1> Student Registration Form </h1>
     <form>
+        <!--PERSONAL DETAILS SECTION OF THE STUDENT-->
         <label for="Student"> Enter name </label>
         <input id="Student" type="text" placeholder="Enter Your Name" > <br><br>
         <label for="email"> Enter email </label>
         <input id="email" type="email" placeholder="abc@gmail.com"> <br><br>
         <label for="password"> Enter password</label>
         <input id="password" type="password" placeholder="Enter your Password"> <br><br>
+        <!--GENDER SELECTION FIELD-->
         <label for="gender"> Select Gender </label> <br>
         <label for="male"> Male</label>
         <input type="radio" id="male" name="gender"> 
@@ -22,6 +25,7 @@
         <input type="radio" id="female" name="gender"> 
         <label for="other"> Other</label>
         <input type="radio" id="other" name="gender"> <br><br>
+        <!--ACADEMIC SELECTION SECTION-->
         <label for="Department"> Select Department </label>
         <select>
             <option>BBA</option>
@@ -30,8 +34,10 @@
             <option>BSC</option>
             <option>BCS</option>
         </select> </br><br>
+        <!--STUDENT ADDRESS SECTION-->
         <label for="address">Enter Address</label><br>
         <textarea name="Address" id="Address" cols="40" rows="5" placeholder="Enter your Address"> </textarea> <br><br>       
+        <!--FORM SUBMISSION BUTTON-->
         <button>Submit</button>             
     </form>
 </center>
