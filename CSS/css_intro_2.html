@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kerala123</title>
+    <link rel="stylesheet" href="../CSS/css_intro_2.html">
+
+    <style>
+        .card-3 {
+            background-image: url("../image/nature.jpg");
+            background-size: cover;
+            height:100vh;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border: 5px solid black;
+            outline: 15px solid green;
+        }
+        .card-row-container {
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: stretch;
+            text-align: center;
+            text-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            width: 100%;
+            
+
+        }
+
+.card-4 {
+    background-image: url("../image/hill\ station.jpg");
+    display :flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 300px;
+    height: 390px;
+    gap: 20px;
+    background-color: rgb(218, 227, 218);
+    margin:  5px;
+
+    padding: 15px;
+    border: 5px solid black;
+}
+
+.card-5 {
+    background-image: url("../image/backwater.jpg");
+    display :flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    gap: 20px;
+    background-color: rgb(218, 227, 218);
+    margin:  5px;
+
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.card-6 {
+    background-image: url("../image/beach.jpg");
+    display :flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 330px;
+    gap: 20px;
+    background-color: rgb(218, 227, 218);
+    margin:  5px;
+
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.card-7 {
+    background-image: url("../image/wildlife.jpeg");
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 310px;
+    gap: 20px;
+    background-color: rgb(218, 227, 218);
+    margin:  5px;
+
+    padding: 25px;
+    border: 5px solid black;
+}
+.navigator {
+    display: flex;
+    flex-direction: row;
+    gap: 20px ;
+    justify-content: center;
+    animation: scale 0.5s ease infinite alternate;
+}
+   
+li {
+list-style: none;
+}
+
+.list {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+
+ @keyframes scale {
+    0% {transform: scale(0);}
+    100% {transform: scale(1.5);}
+ }
+    </style>
+
+</head>
+<body>
+     <div class="card-3">
+         <div class="navigator">
+       <nav>
+        <h1 style="color:brown;-webkit-text-stroke: 0.1px green; font-family: 'Times New Roman';">KERALA TRAVELS</h1>
+        <ul class="list">
+            <button><li>home</li></button>
+            <button><li>about</li></button>
+            <button><li>contact us</li></button>
+        </ul>
+        </nav>
+      </div>
+      <h2 style="font-family: 'Times New Roman'"> Dream Destination Kerala</h2>
+      <p style="color:rgb(0, 6, 0);-webkit-text-stroke: 0.1px black;"> Kerala’s hill stations, backwaters, beaches, wildlife sanctuaries, and heritage towns make it one of India’s most diverse and scenic travel destinations.</p>
+      <div class="card-row-container">    
+            <div class="card-4">
+            <h3 style="color:yellow; -webkit-text-stroke: 0.1px green;font-family:  'Times New Roman';"> Hill Stations</h3>
+            <p style="color:white;-webkit-text-stroke: 0.1px black;">Kerala’s Western Ghats form one of the world’s richest biodiversity hotspots, and Munnar, set at about 1,600 m within these mountains, is a major hill station known for tea plantations, cool climate, wildlife, and scenic viewpoints.</p>            <button>Click me to know more.</button>
+            </div>
+            <div class="card-5">
+            <h3 style="color:yellow; -webkit-text-stroke: 0.1px green;font-family: 'Times New Roman';">Backwaters </h3>
+            <p style="color:white;-webkit-text-stroke: 0.1px black;">The Kerala backwaters are a vast network of brackish lagoons, canals, lakes, and rivers running parallel to the Arabian Sea, spanning over 900 km</p>
+            <button>Click me to know more.</button>
+            </div>
+            <div class="card-6">
+            <h3 style="color:yellow;-webkit-text-stroke: 0.1px green; font-family: 'Times New Roman';"> Beaches </h3>
+            <p style="color:white;-webkit-text-stroke: 0.1px black;">Kerala offers a long 550‑km coastline with famous beaches like Varkala, Kovalam, Cherai, Marari, Bekal, and Muzhappilangad, each known for unique scenery and experiences.</p>
+            <button>Click me to know more.</button>
+            </div>
+            <div class="card-7">
+            <h3 style="color:yellow;-webkit-text-stroke: 0.1px green; font-family: 'Times New Roman';"> wildlife sanctuaries,cultural cities </h3>
+            <p style="color:white;-webkit-text-stroke: 0.1px black;">Kerala offers sun‑kissed beaches, biodiverse wildlife sanctuaries, and vibrant cultural cities, each reflecting the state’s natural beauty and rich heritage.</p>
+            <button>Click me to know more.</button>
+            </div>
+     </div>
+     
+</body>
+</html>
